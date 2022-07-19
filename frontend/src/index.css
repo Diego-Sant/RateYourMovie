@@ -17,3 +17,8 @@ a, a:hover, a:focus, a:active {
   text-decoration: none!important;
   color: unset;
 }
+
+.btn-primary {
+  background-color: #F06105!important;
+  border-color: #F06105!important;
+}
