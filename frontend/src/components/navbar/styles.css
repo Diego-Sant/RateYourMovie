@@ -1,0 +1,52 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header p, h1 {
+    display: flex;
+}
+
+header h1 p {
+    align-items: center;
+    margin: 0;
+    color: #8052dd;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+header span {
+    color: #DFFF00;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+header h1 {
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.rymovie-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.rymovie-nav-content h1 {
+    margin: 0;
+}
+
+.rymovie-contact-container {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.rymovie-contact-link {
+    margin: 0 0 0 8px;
+    font-size: 15px;
+}
