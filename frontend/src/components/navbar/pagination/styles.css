@@ -1,0 +1,57 @@
+body {
+    background: #181818;
+}
+
+.rymovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rymovie-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rymovie-pagination-box form {
+    width: 100%;
+    display: flex;
+}
+
+.rymovie-pagination-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+}
+
+.rymovie-pagination-button svg {
+    filter: invert(34%) sepia(78%) saturate(2806%) hue-rotate(13deg) brightness(108%) contrast(96%);
+}
+
+.rymovie-pagination-button:disabled {
+    border: 1px solid #c2c2c2;
+    cursor: unset;
+}
+
+.rymovie-pagination-button:disabled svg {
+    filter: none;
+}
+
+.rymovie-pagination-container p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-primary);
+}
+
+.rymovie-flip-horizontal {
+    transform: rotate(180deg);
+}
