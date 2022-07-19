@@ -1,10 +1,10 @@
-package com.rymovie.rateyourmovie;
+package com.devsuperior.dsmovie;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RateyourmovieApplicationTests {
+class DsmovieApplicationTests {
 
 	@Test
 	void contextLoads() {

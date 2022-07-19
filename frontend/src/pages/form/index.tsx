@@ -8,9 +8,8 @@ function Form() {
       "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
     title: "The Witcher",
     count: 2,
-    score: 3.5,
+    score: 4.5,
   };
-
   return (
     <div className="rymovie-form-container">
       <img
@@ -19,7 +18,7 @@ function Form() {
         alt={movie.title}
       />
       <div className="rymovie-card-bottom-container">
-        <h3>"The Witcher"</h3>
+        <h3>{movie.title}</h3>
         <form className="rymovie-form">
           <div className="form-group rymovie-form-group">
             <label htmlFor="email">Informe seu email</label>

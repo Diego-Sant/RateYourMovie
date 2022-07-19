@@ -1,4 +1,4 @@
-package com.rymovie.rateyourmovie.entities;
+package com.devsuperior.dsmovie.entities;
 
 import java.io.Serializable;
 

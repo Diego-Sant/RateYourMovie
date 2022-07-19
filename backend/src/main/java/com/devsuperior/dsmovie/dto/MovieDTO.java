@@ -1,8 +1,9 @@
-package com.rymovie.rateyourmovie.dto;
+package com.devsuperior.dsmovie.dto;
 
-import com.rymovie.rateyourmovie.entities.Movie;
+import com.devsuperior.dsmovie.entities.Movie;
 
 public class MovieDTO {
+
 	private Long id;
 	private String title;
 	private Double score;
@@ -67,6 +68,4 @@ public class MovieDTO {
 	public void setImage(String image) {
 		this.image = image;
 	}
-	
-	
 }

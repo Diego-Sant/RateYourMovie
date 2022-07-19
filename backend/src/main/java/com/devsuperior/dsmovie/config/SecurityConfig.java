@@ -1,4 +1,4 @@
-package com.rymovie.rateyourmovie.config;
+package com.devsuperior.dsmovie.config;
 
 import java.util.Arrays;
 
@@ -14,7 +14,6 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-@SuppressWarnings("deprecation")
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
