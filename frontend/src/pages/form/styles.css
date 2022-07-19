@@ -1,0 +1,82 @@
+body {
+    background: #181818;
+}
+
+.rymovie-form-container {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.rymovie-form-group input {
+    background-color: #181818;
+    color: #fff;
+}
+
+.rymovie-form-group input:focus {
+    background-color: #181818;
+    color: #fff;
+}
+
+.rymovie-form-group select {
+    background-color: #181818;
+    color: #fff;
+}
+
+.rymovie-form-group select:focus {
+    background-color: #181818;
+    color: #fff;
+}
+
+.rymovie-form {
+    width: calc(100% - 20px);
+}
+
+.rymovie-form-group {
+    margin-bottom: 20px;
+}
+
+.rymovie-form-group label {
+    font-size: 12px;
+    color: #fff;
+}
+
+.rymovie-form-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.rymovie-movie-card-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.rymovie-card-bottom-container {
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.rymovie-card-bottom-container h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+
+.rymovie-btn {
+    background-color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
