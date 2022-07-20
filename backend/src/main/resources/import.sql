@@ -4,8 +4,8 @@ INSERT INTO tb_user(email) VALUES ('ana@gmail.com');
 INSERT INTO tb_user(email) VALUES ('lucia@gmail.com');
 INSERT INTO tb_user(email) VALUES ('joaquim@gmail.com');
 
-INSERT INTO tb_movie(score, count, title, image) VALUES (2.9, 2, 'Morbius', 'https://www.themoviedb.org/t/p/w1280/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (3.0, 2, 'Thor: Amor e Trovão', 'https://www.themoviedb.org/t/p/w1280/6OEBp0Gqv6DsOgi8diPUslT2kbA.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (2.9, 218, 'Morbius', 'https://www.themoviedb.org/t/p/w1280/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (3.0, 193, 'Thor: Amor e Trovão', 'https://www.themoviedb.org/t/p/w1280/6OEBp0Gqv6DsOgi8diPUslT2kbA.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (4.0, 2, 'Minions 2: A Origem de Gru', 'https://www.themoviedb.org/t/p/w1280/tzFAboMUGJKoPQEtlxfxbbYsSWa.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (2.3, 2, 'Lightyear', 'https://www.themoviedb.org/t/p/w1280/vpILbP9eOQEtdQgl4vgjZUNY07r.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (4.1, 2, 'Batman', 'https://www.themoviedb.org/t/p/w1280/cKNxg77ll8caX3LulREep4C24Vx.jpg');
